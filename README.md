@@ -40,8 +40,16 @@
  |                                                                      |
  +======================================================================+
 --->
+
 Apache Commons DbUtils
 ===================
+>**note**
+>
+>This branch is based on "DBUTILS_1_7" to fix bugs.  
+>List of bugs currently fixed:  
+>1. in the case of multiple threads, Iterating ServiceLoader is not thread-safe. 
+>changed file list: BeanProcessor.java
+
 
 The Apache Commons DbUtils package is a set of Java utility classes for easing JDBC development.
 
